@@ -9,5 +9,4 @@ def show_creators():
     st.write("### Henrique Andrade")
     #st.image("link_para_imagem_henrique.png", caption="Henrique Andrade")
 
-    st.write("### Renan Renzo")
-    #st.image("link_para_imagem_renan.png", caption="Renan Renzo")
+
