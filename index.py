@@ -8,10 +8,10 @@ import criadores as criadores
 
 
 # URL da API para dados de estadios
-url_estadios = "https://script.google.com/macros/s/AKfycbxXLuq-aI8L--wVGv3k5_aVddf4i36qEotGYC4sfCK1giSgUYTQu-1zZ_gp2LjKtAMn/exec?action=getAllEstadios"
+url_estadios = "https://script.google.com/macros/s/AKfycbw8-61iSNcrTnE_7nVDUAMqzI8KZxUtNtlu3MtlwL-6iQ-7UmqlU-PPDWw6H75dFw/exec?action=getAllEstadios"
 
 # URL da API para dados de equipes/times
-url_equipes = "https://script.google.com/macros/s/AKfycbxXLuq-aI8L--wVGv3k5_aVddf4i36qEotGYC4sfCK1giSgUYTQu-1zZ_gp2LjKtAMn/exec?action=getAllEquipes"
+url_equipes = "https://script.google.com/macros/s/AKfycbw8-61iSNcrTnE_7nVDUAMqzI8KZxUtNtlu3MtlwL-6iQ-7UmqlU-PPDWw6H75dFw/exec?action=getAllEquipes"
 
 # Fazendo a solicitação à API para dados de estadios
 response_estadios = requests.get(url_estadios)
